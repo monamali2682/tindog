@@ -1,0 +1,52 @@
+body{font-family: 'Montserrat', sans-serif;}
+
+h1{font-size: 3.5rem;line-height: 1.5;font-weight: bold;margin-top: 2rem}
+h3{font-weight: bold;font-size: 1.5rem}
+p{color:#8F8F8F}
+h2{font-weight: bold;line-height: 1.5;font-size:3rem;}
+
+
+
+
+
+.container-fluid{padding: 3% 15% 6%;}
+#title{background-color: #FF4C68;}
+.navbar-brand{font-family: 'Ubuntu', sans-serif;font-size: 2.5rem;font-weight:bold;}
+.navbar{padding:0 0 4.6rem; }
+.nav-item{margin-right:18px ;font-size: 1.2rem;}
+.btn-download{margin: 5% 3% 5% 0;}
+.iphone6{width: 60%;margin-left:6rem; transform: rotate(20deg);position: absolute;right: 110px;}
+#features{padding: 7% 15%;text-align: center;position: relative;background-color: #fff}
+.fa-check-circle{font-size:3rem ;color: #ef8172;margin-bottom: 1rem;}
+.fa-check-circle:hover{color: #ff4c68;}
+.fa-bullseye{font-size:3rem ;color: #ef8172;margin-bottom: 1rem}
+.fa-bullseye:hover{color: #ff4c68;}
+.fa-heart{font-size:3rem ;color: #ef8172;margin-bottom: 1rem}
+.fa-heart:hover{color: #ff4c68;}
+.features-col{padding-right:7% ;}
+#testimonials{padding: 7% 15%;text-align:center;background-color:#ef8172;color:#fff }
+.testimonial-image{width:13%;border-radius: 100%;margin:20px;}
+#press{background-color:#ef8172;text-align: center;padding-bottom: 3%;}
+.press-logo{margin:20px 20px 50px;width: 12%;}
+#pricing{padding: 100px 150px 130px;text-align: center;}
+.pricing-col{padding: 7% 3% 3%;}
+#pricing-heading{color:#ef8172;margin-top:10px; }
+
+
+/* z-index */
+.iphone6{position: absolute;}
+#features{position: relative;}   /* no need to use z-index: 1 ; since features is already coming after iphone6 in html*/
+
+
+/* media type queries */
+@media(max-width:1028px){
+  .iphone6{position: static;transform: rotate(0);margin: auto;}
+  #title{text-align: center;}
+}
+
+
+
+#cta{text-align: center;background-color: #FF4C68;padding: 5% 15% 4%;}
+.cta-text{font-size:3rem;line-height: 1.5;font-weight: bolder;color:#fff}
+#footer{text-align:center; background-color:#fff ;padding:5% 15% 3%; }
+.icon{padding-right: 3%;margin:auto;margin-bottom:15px; }
